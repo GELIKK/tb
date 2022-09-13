@@ -1,0 +1,338 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://c.tenor.com/4FnFwbrU6pMAAAAM/relax-ocean.gif");
+}
+.active {
+  color: yellow;
+}
+
+main section {
+  width: 90%;
+  height: 1000px;
+}
+main section aside {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section aside div {
+  width: 450px;
+  margin-top: 59px;
+}
+main section aside div img {
+  width: 90%;
+  height: 640px;
+}
+header {
+  width: 100%;
+  height: 80px;
+}
+header nav {
+  width: 100%;
+  height: 109px;
+}
+header nav .logo {
+  margin-top: 10px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+header nav .logo a {
+  font-size: 60px;
+  color: white;
+
+  text-decoration: none;
+}
+header nav ul {
+  float: right;
+  margin-top: 50px;
+}
+header nav ul li {
+  display: inline-block;
+  margin: 0px 5px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 20px;
+  font-family: "Source Serif Pro", serif;
+}
+header nav ul li :hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+header nav .checkBtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-right: 40px;
+  display: none;
+}
+header nav #check {
+  display: none;
+}
+.facebook {
+  display: inline-block;
+}
+.facebook li a {
+  margin: 0px;
+}
+form {
+  width: 80%;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+.carousel-inner img {
+  height: 700px;
+  width: 6px;
+}
+.photo {
+  margin-top: 100px;
+  color: red;
+  font-weight: bold;
+}
+h1 {
+  margin-left: 550px;
+  color: white;
+}
+
+/* portpolioooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+.fashion {
+  background-image: url("https://i.gifer.com/YSBQ.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  justify-content: center;
+}
+header {
+  width: 100%;
+  height: 50px;
+}
+.fashion section {
+  width: 95%;
+  height: 1000px;
+}
+.fashion section h1 {
+  margin-left: 150px;
+  font-family: "Source Serif Pro", serif;
+
+  display: inline;
+  font-size: 60px;
+}
+
+.fuy {
+  color: white;
+  margin-top: 100px;
+  font-size: 14px;
+}
+.fashion div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fashion div img {
+  margin: 40px;
+  width: 400px;
+  height: 600px;
+  transform: scale(1);
+}
+.fashion div img:hover {
+  transform: scale(1.2);
+  transition: 0.3s ease-in-out;
+  transition: 1s;
+}
+/* abouttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt */
+.about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about section {
+  width: 90%;
+  height: 2500px;
+}
+.marti {
+  width: 80%;
+}
+
+p {
+  color: greenyellow;
+  font-size: 25px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+/* albumsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss */
+.albums {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg");
+}
+.albums section {
+  width: 90%;
+  height: 800px;
+}
+span {
+  color: white;
+  font-size: 25px;
+  margin-left: 25px;
+  font-family: "Source Serif Pro", serif;
+}
+.album {
+  width: 95%;
+  height: 300px;
+
+  margin-left: 25px;
+  margin-top: 25px;
+  display: flex;
+}
+.album aside {
+  width: 332px;
+  height: 272px;
+
+  margin: 10px;
+}
+.image-1 {
+  width: 332px;
+  height: 272px;
+
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://static.wixstatic.com/media/8bb438_22ad7948c19846b1accecec513384bb0~mv2.jpg/v1/fill/w_250,h_167,fp_0.50_0.50,q_90,usm_1.00_0.66_0.01/8bb438_22ad7948c19846b1accecec513384bb0~mv2.webp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ1cm46YXBwOjZiZTRmNGFmMjAzOTQwOTVhZDY5Y2NjMzk4ODkyYzhkIiwib2JqIjpbW3sicGF0aCI6Ii9tZWRpYS84YmI0MzhfMjJhZDc5NDhjMTk4NDZiMWFjY2VjZWM1MTMzODRiYjB-bXYyLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sImlzcyI6InVybjphcHA6NmJlNGY0YWYyMDM5NDA5NWFkNjljY2MzOTg4OTJjOGQiLCJpYXQiOjEwMDAsImp0aSI6IjE2NzI1MzEyMDAiLCJleHAiOjE2NzI1MzEyMDAsIndtayI6eyJwYXRoIjoiL21lZGlhLzhiYjQzOF8zOWE3OGI0NmQ0ZmU0NzA2OWRhNjNkYTkzNDhiNGVlNX5tdjIucG5nIiwib3BhY2l0eSI6MSwicHJvcG9ydGlvbnMiOjAuMSwiZ3Jhdml0eSI6Im5vcnRoLXdlc3QifX0.c3daEpgFKckc2saF0HGvafxXOxo5u9CpR2cQZ05xsIc");
+}
+.image-2 {
+  width: 332px;
+  height: 272px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://www.westend61.de/images/0001182024pw/topless-caucasian-teenage-girl-laying-on-rock-in-ocean-BLEF00279.jpg");
+}
+.image-3 {
+  width: 332px;
+  height: 272px;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/female-with-book-sleeping-grass_23-2147845726.jpg?w=2000");
+}
+.album-para {
+  color: white;
+  font-size: 14px;
+  margin-top: 50px;
+  font-family: "Source Serif Pro", serif;
+}
+.overlay-1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transform: scale(1);
+}
+.overlay-1:hover {
+  opacity: 0;
+  transition: 0.8s;
+  transform: scale(1.5);
+  transition: 0.3s ease-in-out;
+}
+
+.overlay-1 p {
+  color: white;
+  font-size: 40px;
+  font-family: "Permanent Marker", cursive;
+}
+/* contactooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo */
+.contri {
+  background-image: url("https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.contri section {
+  width: 90%;
+  height: 780px;
+}
+.contributor {
+  width: 100%;
+  height: 671px;
+  display: flex;
+}
+.contributor aside {
+  width: 50%;
+  height: 671px;
+}
+.contributor aside p {
+  color: white;
+  margin-left: 27px;
+  font-family: "Source Serif Pro", serif;
+}
+.contributor aside div input {
+  display: flex;
+  height: 50px;
+  width: 205px;
+  background-color: black;
+  margin: 10px;
+  margin-left: 60px;
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+.contributor aside div {
+  display: flex;
+  width: 410px;
+  margin: 40px;
+}
+.text {
+  width: 82%;
+  height: 108px;
+  margin-left: 100px;
+  background-color: black;
+  border: 0px;
+  border-bottom: 2px solid white;
+}
+.contributor aside div input::placeholder {
+  color: white;
+}
+.contributor aside textarea::placeholder {
+  color: white;
+}
+.foreign {
+  display: flex;
+
+  justify-content: flex-end;
+}
+.foreign li a {
+  color: aqua;
+  text-decoration: none;
+  font-weight: bold;
+}
